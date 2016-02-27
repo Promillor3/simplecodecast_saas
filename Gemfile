@@ -19,6 +19,9 @@ end
 # USE Bootstrap libary for styles
 gem 'bootstrap-sass', '3.3.6'
 
+# Use font awesome library fpr icons
+gem 'font-awesome-sass', '4.5.0'
+
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
